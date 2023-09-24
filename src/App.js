@@ -54,8 +54,7 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <body className= {darkMode ? 'darkMode':'LightMode'} >
+      <div className={`parent-div ${darkMode ? 'darkMode':'LightMode'}`} >
         
         <div className='container'>
           <h1 className= {darkMode ? 'darkMode':'LightMode'}>Sign in</h1>
@@ -65,7 +64,7 @@ function App() {
             <input type='password' name='password' value={formData.password} onChange={handleInputChange} placeholder='Password' />
             <div className='checkbox-forget'>
               <div className='checkBox'>
-                <input type='checkbox' />
+                <input id="checkbox" type='checkbox' />
                 <label for='checkbox'>Remember me</label>
               </div>
               <div>
@@ -101,8 +100,7 @@ function App() {
             </defs>
           </svg></button>
         </footer>
-      </body>
-    </div>
+      </div>
   );
 }
 
