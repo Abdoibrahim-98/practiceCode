@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  color: #224957;
+  text-align: center;
+  font-family: Lexend Deca;
+}
+
+.lightMode{
+  background-color: #E5E5E5;
+  color: #224957 !important;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.darkMode{
+  background-color: #093545;
+  color: #E5E5E5 !important;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.container{
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.container >p{
+  text-align: center;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signin-form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.signin-form > input{
+  margin-bottom: 32px;
+  border-radius: 10px;
+  background: #224957;
+  width: 300px;
+  height: 45px;
+  flex-shrink: 0;
+  color: #E5E5E5;
+}
+
+.forget-password{
+  text-decoration: none;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.checkBox > input[type="checkbox"]{
+  background: #224957;
+  
+}
+
+
+input::placeholder {
+  color: white; 
+}
+.signin-form >div{
+  margin-bottom: 32px;
+}
+
+
+.checkbox-forget{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit-btn{
+  color: #224957;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  text-transform: capitalize;
+  width: 300px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #20DF7F;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.vectors{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  height: 18vh;
+}
+
+.dark-mode-btn{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+
+}
